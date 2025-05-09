@@ -1,0 +1,16 @@
+Aluna: Carla Dayane Rodrigues Alves
+
+Lista de comandos utilizados:
+$ git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+$ cd curso-branchs-ifrn-ead
+$ git config user.name "Carla"
+$ git config user.email "carladayane856@gmail.com"
+$ git config --list --local
+$ git add texto.txt
+$ git commit -m "Comitt inicial"
+$ git checkout -b feature-1
+$ git commit -am "Commit na branch feature-1"
+$ git checkout main
+$ git commit -am "Commit de alteracao na branch main"
+$ git merge feature-1
+$ git commit -am "resolve conflito"
